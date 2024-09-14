@@ -1,0 +1,46 @@
+body{
+    background: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.welcome{
+    display: flex;
+    align-content: center;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.left{
+    width: 60%;
+    height: 550px;
+    padding: 15px;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 100px;
+    align-items: center;
+}
+.welcome h1{
+    color:antiquewhite;
+}
+.welcome p {
+    color:antiquewhite;
+}
+label{
+    color:aliceblue;
+}
+.cancel{
+    color: aliceblue;
+    background-color: red;
+}
+.signup{
+    color:aliceblue;
+    background-color: green;
+}
